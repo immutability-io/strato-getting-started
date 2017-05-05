@@ -18,7 +18,8 @@ services:
     - pguser=${pguser}
     - ssl=${ssl}
     - stratoHost=${stratoHost}
-    image: registry-aws.blockapps.net:5000/blockapps-repo/silo-bloch:latest
+    image: registry-aws.blockapps.net:5000/blockapps-repo/silo-bloch:save
+    # image: silo-bloch:latest
     ports:
     - 10001:8000
     restart: always
