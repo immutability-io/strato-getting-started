@@ -79,7 +79,6 @@ then
         miningAlgorithm=SHA \
         lazyBlocks=false \
         explorerHost=http://explorer:9000 \
-        explorerAdvertise=http://p2pnode3.eastus.cloudapp.azure.com \
         bootnode=10.0.0.15 \
         docker-compose -f docker-compose.release.yml -p strato up -d
     else
